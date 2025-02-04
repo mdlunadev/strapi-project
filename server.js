@@ -1,3 +1,6 @@
 const strapi = require("@strapi/strapi");
+const path = require("path");
 
-strapi().start();
+strapi({
+  appDir: path.resolve(__dirname, "src"),
+}).start();
