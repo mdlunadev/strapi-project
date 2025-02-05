@@ -7,7 +7,12 @@ export default [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          "connect-src": ["'self'", "http://localhost:1337"],
+          "connect-src": [
+            "'self'",
+            "http://localhost:1337",
+            "https://api.github.com",
+            "https://analytics.strapi.io/",
+          ],
           "img-src": ["'self'", "data:", "blob:"],
           "media-src": ["'self'", "data:", "blob:"],
           upgradeInsecureRequests: null,
