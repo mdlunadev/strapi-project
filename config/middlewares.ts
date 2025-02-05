@@ -12,6 +12,7 @@ export default [
             "http://localhost:1337",
             "https://api.github.com",
             "https://analytics.strapi.io/",
+            "https://market-api.strapi.io/",
           ],
           "img-src": ["'self'", "data:", "blob:"],
           "media-src": ["'self'", "data:", "blob:"],
