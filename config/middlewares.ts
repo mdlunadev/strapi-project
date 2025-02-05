@@ -7,7 +7,7 @@ export default [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          "connect-src": ["'self'", "http://localhost:1337", "'*'"],
+          "connect-src": ["'self'", "http://localhost:1337"],
           "img-src": ["'self'", "data:", "blob:"],
           "media-src": ["'self'", "data:", "blob:"],
           upgradeInsecureRequests: null,
