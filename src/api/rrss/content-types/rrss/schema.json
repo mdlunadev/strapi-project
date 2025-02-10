@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "rrsses",
+  "info": {
+    "singularName": "rrss",
+    "pluralName": "rrsses",
+    "displayName": "RRSS"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

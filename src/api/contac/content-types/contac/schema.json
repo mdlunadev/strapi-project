@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacs",
+  "info": {
+    "singularName": "contac",
+    "pluralName": "contacs",
+    "displayName": "Contac"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}
