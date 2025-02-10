@@ -1,5 +1,5 @@
 {
-  "name": "demo-strapi-project",
+  "name": "vhdemo",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -12,20 +12,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.9.0",
-    "@strapi/plugin-documentation": "^5.9.0",
-    "@strapi/plugin-users-permissions": "5.9.0",
-    "@strapi/strapi": "5.9.0",
-    "@vercel/node": "^5.1.0",
-    "better-sqlite3": "11.3.0",
-    "dotenv": "^16.4.7",
+    "@strapi/plugin-cloud": "5.8.1",
+    "@strapi/plugin-color-picker": "^5.8.1",
+    "@strapi/plugin-documentation": "^5.8.1",
+    "@strapi/plugin-users-permissions": "5.8.1",
+    "@strapi/strapi": "5.8.1",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
-    "pg": "^8.13.1",
+    "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "sqlite3": "^5.1.7",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
@@ -39,6 +36,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "55d8afc6-c33b-4372-af81-bb94f8484434"
+    "uuid": "77112e85-2b2a-4099-aab0-36dc26f80e14"
   }
 }
